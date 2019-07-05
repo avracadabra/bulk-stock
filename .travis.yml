@@ -1,0 +1,25 @@
+language: python
+dist: xenial
+sudo: true
+addons:
+    postgresql: "9.6"
+
+python:
+    - "3.6"
+    - "3.7"
+
+services:
+  - postgresql
+
+services:
+  - postgresql
+
+install:
+  - make setup-tests
+
+script:
+  - make lint
+  - make test
+
+after_success:
+  coveralls

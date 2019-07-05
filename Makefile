@@ -21,7 +21,8 @@ setup: ## install python project dependencies
 	anyblok_createdb -c app.cfg || anyblok_updatedb -c app.cfg
 
 setup-tests: ## install python project dependencies for tests
-	pip install --upgrade pip wheel
+	pip install --upgrade pip wheel pre-commit
+	pre-commit install
 	pip install --upgrade -r requirements.test.txt
 	pip install .
 	anyblok_createdb -c app.test.cfg || anyblok_updatedb -c app.test.cfg

@@ -1,0 +1,17 @@
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v2.2.3  # Use the ref you want to point at
+  hooks:
+  - id: trailing-whitespace
+  - id: flake8
+  - id: end-of-file-fixer
+
+- repo: https://github.com/ambv/black
+  rev: stable
+  hooks:
+  - id: black
+    args: ["-l", "80", "-t", "py37"]
+
+-   repo: https://github.com/asottile/reorder_python_imports
+    rev: v1.5.0
+    hooks:
+    -   id: reorder-python-imports

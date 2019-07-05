@@ -20,10 +20,10 @@ I'll try to split them in 3 parts:
 
 * **provider stock management**
   : This is about provider stock managment and how to
-  make easy the communicaitons with stores.
+  make easy the communication with stores.
 
 * **jar traceability**
-  : This is abaout customer jar traceability.
+  : This is about customer jar traceability.
 
 At the begining I'll focus on store managment. before deep into
 expected features lets talk about used technologies.
@@ -44,7 +44,24 @@ SqlAlchemy, pyramid...
 that I've test a little bit and looks like very promising as long term maintenance.
 
 
+# Credits
 
-# Author
+This [AnyBlok][anyblok] package was created with
+[audreyr/cookiecutter][cookiecutter] and the
+[AnyBlok/cookiecutter-anyblok-project][cookiecutter-anyblok] project template.
 
-* Pierre Verkest
+
+# License
+
+[Mozilla Public License Version 2.0](http://mozilla.org/MPL/2.0/)
+
+
+# Authors
+
+* Pierre Verkest <pierreverkest84@gmail.com>
+
+
+[anyblok]: https://github.com/AnyBlok/AnyBlok
+
+[cookiecutter-anyblok]: https://github.com/Anyblok/cookiecutter-anyblok-project
+[cookiecutter]: https://github.com/audreyr/cookiecutter

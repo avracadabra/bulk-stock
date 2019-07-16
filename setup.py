@@ -10,7 +10,7 @@ version = "0.1.0"
 here = os.path.abspath(os.path.dirname(__file__))
 
 with open(
-    os.path.join(here, "README.rst"), "r", encoding="utf-8"
+    os.path.join(here, "README.md"), "r", encoding="utf-8"
 ) as readme_file:
     readme = readme_file.read()
 

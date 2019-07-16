@@ -1,7 +1,6 @@
 from anyblok_pyramid import current_blok
 from pyramid.response import Response
-from pyramid.view import view_config
-from pyramid.view import view_defaults
+from pyramid.view import view_config, view_defaults
 
 
 @view_defaults(installed_blok=current_blok())

@@ -3,8 +3,7 @@
 """Setup script for bulk-stock"""
 import os
 
-from setuptools import find_packages
-from setuptools import setup
+from setuptools import find_packages, setup
 
 version = "0.1.0"
 here = os.path.abspath(os.path.dirname(__file__))

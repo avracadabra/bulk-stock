@@ -1,9 +1,7 @@
 """demo Example model, this model is goging to create table at startup
 """
 from anyblok import Declarations
-from anyblok.column import Integer
-from anyblok.column import String
-
+from anyblok.column import Integer, String
 
 Model = Declarations.Model
 

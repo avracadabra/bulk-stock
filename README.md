@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/avracadabra/bulk-stock.svg?branch=master)](https://travis-ci.org/avracadabra/bulk-stock)
+[![Coverage Status](https://coveralls.io/repos/github/avracadabra/bulk-stock/badge.svg?branch=master)](https://coveralls.io/github/avracadabra/bulk-stock?branch=master)
+
 # bulk-stock
 
 An application to manage bulk stock in stores

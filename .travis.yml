@@ -1,26 +1,10 @@
 language: python
-dist: xenial
-sudo: true
-addons:
-    postgresql: "9.6"
 
 python:
-    - "3.6"
-    - "3.7"
-
-services:
-  - postgresql
-
-services:
-  - postgresql
+  - "3.7"
 
 install:
-  - make setup-tests
-  - pip install -U coveralls
+  - pip install pre-commit --install-hooks
 
 script:
   - make lint
-  - make test
-
-after_success:
-  coveralls --rcfile=.coveragerc
